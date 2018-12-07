@@ -1,0 +1,19 @@
+.extra-margin {
+  margin-top: 100px;
+}
+input, .form-control {
+  width: 100% !important;
+  margin: 10px;
+}
+.card {
+  margin-bottom: 25px;
+}
+.card-title {
+  padding: 15px;
+  font-size: 200%;
+}
+.card-subtitle {
+  font-weight: bold;
+  padding: 15px;
+  font-size: 125%;
+}

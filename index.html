@@ -12,6 +12,39 @@
     <!-- insert header using jQuery -->
     <header id="nav"></header>
 
+    <!-- cards from slack -->
+    <div class="container"></div>
+    <div class="row extra-margin">
+      <div class="col-md-4 offset-md-4">
+        <form class="form-inline" action="" method="post" id="search_weather">
+          <input type="text" id="city" class="form-control" placeholder="City...">
+          <input type="submit" class="btn btn-primary" value="Search">
+        </form>
+      </div>
+    </div>
+      <div class="row extra-margin" id="weather_info">
+        <div class="col-md-4 offset-md-4">
+          <div class="card">
+            <div class="card-title badge-danger">High</div>
+            <div class="card-subtitle" id="high"></div>
+          </div>
+          <div class="card">
+            <div class="card-title badge-success">Low</div>
+            <div class="card-subtitle" id="low"></div>
+          </div>
+          <div class="card">
+            <div class="card-title badge-primary">Forecast</div>
+            <div class="card-subtitle" id="forecast"></div>
+          </div>
+          <div class="card">
+            <div class="card-title badge-secondary">Humidity</div>
+            <div class="card-subtitle" id="humidity"></div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends container -->
+
+
     <!-- Scripts for Bootstrap 4 CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
